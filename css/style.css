@@ -423,6 +423,89 @@ a:focus {
 }
 
 
+
+
+
+
+.contact_main .copyright{
+	padding-top: 85px;
+	position: relative;
+}
+.contact_main .copyright:after{
+	left: -50px;
+	top: 0;
+	right: -50px;
+	position: absolute;
+	content: '';
+	height: 4px;
+	background-color: #000;
+}
+.contact_main .social{
+	margin-bottom: 10px;
+}
+.contact_main .social ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	justify-content: center;
+}
+.contact_main .social li{
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.contact_main .social a{
+	display: block;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #000;
+	color: #0e090d;
+	text-decoration: none;
+	position: relative;
+}
+.contact_main .social a:hover{
+	border-color: var(--main-color);
+	color: var(--main-color);
+}
+.contact_main .social .fn__svg{
+	width: 18px;
+	height: 18px;
+	top: 50%;
+	left: 50%;
+	margin: -9px 0 0 -9px;
+	position: absolute;
+	display: block;
+}
+.contact_main .desc p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 4px;
+}
+.contact_main .desc a{
+	color: #000;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+.contact_main .desc a:hover{
+	border-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Main Content */
 .sidebar-closed .rewall_fn_content{
 	padding-left: 0 !important;
@@ -563,7 +646,7 @@ section{
 
 /* About Shortcode */
 .about{
-	padding: 200px 0 182px;	
+	padding: 50px 0 182px;	
 }
 .fn_cs_about_modern{
 	width: 100%;
@@ -633,9 +716,9 @@ section{
 .main_title h3{
 	margin: 0;
 	padding: 0;
-	font-size: 72px;
+	font-size: 35px;
 	font-weight: 600;
-	line-height: 1;
+	line-height: 45px;
 	padding-bottom: 29px;
 	position: relative;
 	text-transform: uppercase;
@@ -1712,7 +1795,7 @@ section{
 
 .fn_cs_contact_info{
 	text-align: center;
-	padding: 86px 0 0;
+	padding: 30px 0 0;
 }
 .fn_cs_contact_info p{
 	margin: 0;
