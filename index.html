@@ -2,1110 +2,781 @@
 <html lang="en">
 
 <head>
-<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<title>Shahbaz Ahmad | Full Stack WordPress Developer</title>
-<meta name="description" content="Shahbaz Ahmad is a Full Stack WordPress Developer specializing in custom themes, WooCommerce, and modern web solutions. View portfolio and projects.">
-<meta name="keywords" content="WordPress Developer, Full Stack Developer, WooCommerce, PHP Developer, Shahbaz Ahmad, Web Developer Pakistan">
-<meta name="author" content="Shahbaz Ahmad">
-<meta name="robots" content="index, follow">
-
-<meta property="og:title" content="Shahbaz Ahmad | Full Stack WordPress Developer">
-<meta property="og:description" content="Explore the portfolio of Shahbaz Ahmad, a professional WordPress developer building high-performance websites.">
-<meta property="og:image" content="https://shahbazr77.github.io/portfolio/img/about.jpg">
-<meta property="og:url" content="https://shahbazr77.github.io/portfolio/">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Shahbaz Ahmad | WordPress Developer">
-<meta name="twitter:description" content="Professional WordPress developer portfolio with modern and scalable solutions.">
-<meta name="twitter:image" content="https://shahbazr77.github.io/portfolio/img/about.jpg">
-
-<!-- Styles -->
-<link type="text/css" rel="stylesheet" href="css/base.css" />
-<link type="text/css" rel="stylesheet" href="css/animate.css" />
-<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
-<link type="text/css" rel="stylesheet" href="css/owl-carousel.css" />
-<link type="text/css" rel="stylesheet" href="css/style.css" />
-
+   <!-- required meta -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- #favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+   <!-- #title -->
+   <title>Shahbaz Ahmad | Full Stack WordPress and Plugin Developer</title>
+   <!-- #keywords -->
+   <meta name="keywords" content="wordpress developer, plugin developer, php, rest api, woocommerce, theme development, lahore">
+   <!-- #description -->
+   <meta name="description" content="Shahbaz Ahmad is a full stack WordPress and plugin developer in Lahore with 7+ years of experience building custom themes, plugins and REST API integrations.">
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Sora:wght@100..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+   <!-- bootstrap five css -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- font awesome six css -->
+   <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+   <!-- tabler icons css -->
+   <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css">
+   <!-- magnific popup css -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!-- nice select css -->
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <!-- odometer css -->
+   <link rel="stylesheet" href="assets/css/odometer.css">
+   <!-- swiper slider css -->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+   <!-- main css -->
+   <link rel="stylesheet" href="assets/css/main.css">
+   <!-- responsive css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
+   <!--[if lt IE 9]>
+      <p class="browserupgrade">
+         You are using an <strong>outdated</strong> browser. Please
+         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+         your experience and security.
+      </p>
+      <![endif]-->
+   <div class="page-wrapper">
+      <!-- ==== preloader section start ==== -->
+      <div id="preloader">
+         <div class="preloader-bg preloader-bg-one"></div>
+         <div class="preloader-bg preloader-bg-two"></div>
+         <div class="txt-loading">
+            <span data-text-preloader="L" class="letters-loading">
+               L
+            </span>
+            <span data-text-preloader="O" class="letters-loading">
+               O
+            </span>
+            <span data-text-preloader="A" class="letters-loading">
+               A
+            </span>
+            <span data-text-preloader="D" class="letters-loading">
+               D
+            </span>
+            <span data-text-preloader="I" class="letters-loading">
+               I
+            </span>
+            <span data-text-preloader="N" class="letters-loading">
+               N
+            </span>
+            <span data-text-preloader="G" class="letters-loading">
+               G
+            </span>
+         </div>
+      </div>
+      <!-- ==== / preloader section end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="main-header__menu-box">
+                     <nav class="navbar p-0">
+                        <div class="navbar-logo">
+                           <a href="index.html">
+                              <img src="assets/images/logo.png" alt="Image" class="logo-ch">
+                           </a>
+                        </div>
+                        <div class="navbar__menu-wrapper">
+                           <div class="navbar__menu d-none d-xl-block">
+                              <ul class="navbar__list">
+                                 
+                                 
+                                 <li class="navbar__item nav-fade">
+                                    <a href="#aboutSec">About</a>
+                                 </li>
+                                 <li class="navbar__item nav-fade">
+                                    <a href="#serviceSec">Services</a>
+                                 </li>
+                                 <li class="navbar__item nav-fade">
+                                    <a href="#portfolioSec">Portfolio</a>
+                                 </li>
+                                 <li class="navbar__item nav-fade">
+                                    <a href="#resumeSec">Experience</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="navbar__options">
+                           <div class="navbar__mobile-options d-none d-sm-block">
+                              <a href="#contactSec" class="btn-primary">
+                                 <span class="btn-animated-text" data-text="contact us">Contact Us</span>
+                                 <span class="btn-icon">
+                                    <i class="ph ph-arrow-up-right"></i>
+                                    <i class="ph ph-arrow-up-right"></i>
+                                 </span>
+                              </a>
+                           </div>
+                           <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu"
+                              title="open offcanvas menu">
+                              <span class="icon-bar top-bar"></span>
+                              <span class="icon-bar middle-bar"></span>
+                              <span class="icon-bar bottom-bar"></span>
+                           </button>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu d-block d-xxl-none">
+         <nav class="mobile-menu__wrapper">
+            <div class="mobile-menu__header nav-fade">
+               <div class="logo">
+                  <a href="index.html" aria-label="home page" title="logo">
+                     <img src="assets/images/logo.png" alt="Image" class="logo-ch">
+                  </a>
+               </div>
+               <button aria-label="close mobile menu" class="close-mobile-menu">
+                  <i class="ph ph-x"></i>
+               </button>
+            </div>
+            <div class="mobile-menu__list"></div>
+            <div class="mobile-menu__cta  d-block d-md-none nav-fade">
+               <a href="#contactSec" class="btn-primary">
+                  <span class="btn-animated-text" data-text="contact us">Contact Us</span>
+                  <span class="btn-icon">
+                     <i class="ph ph-arrow-up-right"></i>
+                     <i class="ph ph-arrow-up-right"></i>
+                  </span>
+               </a>
+            </div>
+            <div class="mobile-menu__social social nav-fade">
+               <a href="https://github.com/shahbazr77" target="_blank" aria-label="github profile" title="github">
+                  <i class="fa-brands fa-github"></i>
+               </a>
+               
+               
+               
+            </div>
+         </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
 
+      <!-- ==== hero section start ==== -->
+      <section class="hero-two">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="hero-two__wrapper">
+                     <div class="row">
+                        <div class="col-12 col-md-7 col-lg-7 col-xl-6">
+                           <div class="hero-two__inner">
+                              <div class="hero-two__content fade-up">
+                                 <span class="tertiary-text text-uppercase sub-title fw-3 neutral-top">HOWDY!
+                                    <img src="assets/images/hand.png" alt="Image"> I'M SHAHBAZ AHMAD</span>
+                                 <h1 class="title-xl title-animation fw-7 text-uppercase mt-20">Full Stack <span class="secondary-text">WordPress Developer</span>
+                                 </h1>
+                                 <p class="text-xl primary-text mt-20">I build custom WordPress themes, plugins and REST API integrations for clients in e-commerce, trading and services. Based in Lahore, Pakistan.
+                                 </p>
+                                 <div class="hero__two-cta mt-40">
+                                    <a href="#contactSec" class="btn--secondary" title="hire me"
+                                       aria-label="hire me">
+                                       <span class="btn-animated-text" data-text="Hire Me!">Hire
+                                          Me!</span>
+                                    </a>
+                                    <a href="Shahbaz_Ahmad_Resume.pdf" download class="btn--tertiary" title="download cv"
+                                       aria-label="download cv"><span class="btn-animated-text"
+                                          data-text="Download CV">Download CV</span></a>
+                                 </div>
+                              </div>
+                              <div class="hero-two__group mt-160">
+                                 <div class="hero-two__left fade-up">
+                                    <div class="left-thumb">
+                                       <a href="#portfolioSec">
+                                          <img src="assets/images/banner/circle.png" alt="Image">
+                                       </a>
+                                    </div>
+                                    <div class="right-thumb">
+                                       <div class="btn-wrapper">
+                                          <a href="#portfolioSec" class="btn-anim ">
+                                             <i class="ph ph-arrow-up-right"></i>
+                                             View Works
+                                             <span></span>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="hero-two__right fade-up" data-delay="400">
+                                    <div class="hero-two__group-thumb">
+                                       <div class="users">
+                                          
+                                          
+                                          
+                                          
+                                          <div class="single-user user-count">
+                                             <h3 class="fw-7"><span class="odometer"
+                                                   data-odometer-final="7">0</span><span class="prefix">+</span></h3>
+                                          </div>
+                                       </div>
+                                       <p class="primary-text mt-20">Years of professional WordPress development.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="hero-two-thumb d-none d-md-block fade-up" data-delay="200">
+                        <img src="assets/images/banner/hero-two-thumb.png" alt="Image">
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ==== / hero section end ==== -->
+      <!-- ==== marquee section start ==== -->
+      <section class="marquee marquee-tertiary-bg">
+         <div class="marquee__inner">
+            <div class=" marquee__slider">
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">WORDPRESS <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">PLUGIN DEVELOPMENT <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">REST API <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">WOOCOMMERCE <span>-</span></a></h4>
+               </div>
+            </div>
+            <div class=" marquee__slider">
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">WORDPRESS <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">PLUGIN DEVELOPMENT <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">REST API <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">WOOCOMMERCE <span>-</span></a></h4>
+               </div>
+            </div>
+            <div class=" marquee__slider">
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">WORDPRESS <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">PLUGIN DEVELOPMENT <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single stroke-text">
+                  <h4 class="title-lg"><a href="#serviceSec">REST API <span>-</span></a></h4>
+               </div>
+               <div class="marquee__single">
+                  <h4 class="title-lg"><a href="#serviceSec">WOOCOMMERCE <span>-</span></a></h4>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ==== / marquee section end ==== -->
+      <!-- ==== about section start ==== -->
+      <section class="about pt-160" id="aboutSec">
+         <div class="container">
+            <div class="row gutter-40">
+               <div class="col-12 col-lg-6">
+                  <div class="about__intro fade-up">
+                     <span class="tertiary-text text-uppercase sub-title fw-6 neutral-top">About Me</span>
+                     <h3 class="title-animation mt-16">Hi, I'm Shahbaz, a Lahore-based WordPress developer building themes, plugins and integrations that clients can rely on.
+                     </h3>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <div class="about__counter neutral-top">
+                     <h2 class="title-xxl fw-8 secondary-text"><span class="odometer"
+                           data-odometer-final="20">0</span><span class="prefix">+</span>
+                     </h2>
+                     <span class="text-xl text-uppercase fw-4 primary-text complete-text">Live Projects</span>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="about__inner mt-160">
+                     <div class="row gutter-40">
+                        <div class="col-12 col-lg-6">
+                           <div class="about__award neutral-top">
+                              <h2 class="title-xxl secondary-text"><span class="odometer"
+                                    data-odometer-final="10">0</span><span class="prefix">+</span>
+                              </h2>
+                              <h5 class="title-xxl fw-8 secondary-text">PLUGINS</h5>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                           <div class="about__content fade-up" data-delay="300">
+                              <p class="primary-text neutral-top text-xl">I have 7+ years of WordPress experience, building custom themes, plugins and REST API integrations for global clients in e-commerce, trading and service-based industries.
+                              </p>
+                              <p class="primary-text text-xl mt-25">I started in front-end and OpenCart development, so I handle the whole job: design files to responsive pages, custom PHP and JavaScript, plugin architecture and performance tuning.
+                              </p>
+                              <div class="about__content-cta mt-40">
+                                 <a href="#resumeSec" class="btn-primary"><span class="btn-animated-text" data-text="My Experience">My Experience</span>
+                                    <span class="btn-icon">
+                                       <i class="ph ph-arrow-up-right"></i>
+                                       <i class="ph ph-arrow-up-right"></i>
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ==== / about section end ==== -->
+      <!-- ==== service section start ==== -->
+      <section class="service-two pt-160" id="serviceSec">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section__header-wrapper mb-60 fade-up">
+                     <div class="row gutter-20 align-items-center">
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-8">
+                           <div class="section__header">
+                              <span class="sub-title tertiary-text text-uppercase neutral-top fw-6">MY SERVICES</span>
+                              <h2 class="title-animation fw-6 mt-16">Development Services Tailored
+                                 to Your Needs
+                              </h2>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-4">
+                           <div>
+                              <p class="primary-text">WordPress development, from custom themes and plugins to API integrations.
+                              </p>
+                              <div class="mt-30">
+                                 <a href="#serviceSec" class="btn-primary">
+                                    <span class="btn-animated-text" data-text="View More">View
+                                       More</span>
+                                    <span class="btn-icon">
+                                       <i class="ph ph-arrow-up-right"></i>
+                                       <i class="ph ph-arrow-up-right"></i>
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row gutter-24">
+               <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                  <div class="service__single active fade-up">
+                     <span class="text-xl fw-5">01.</span>
+                     <div class="thumb mt-60">
+                        <a href="#serviceSec">
+                           <img src="assets/images/service/one.png" alt="Image">
+                        </a>
+                     </div>
+                     <div class="content mt-60">
+                        <h5><a href="#serviceSec" class="title-animation fw-5">Custom Plugin Development</a>
+                        </h5>
+                        <div class="content__cta mt-40">
+                           <a href="#serviceSec">View More <i class="ph-bold ph-arrow-up-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                  <div class="service__single fade-up" data-delay="200">
+                     <span class="text-xl fw-5">02.</span>
+                     <div class="thumb mt-60">
+                        <a href="#serviceSec">
+                           <img src="assets/images/service/one.png" alt="Image">
+                        </a>
+                     </div>
+                     <div class="content mt-60">
+                        <h5><a href="#serviceSec" class="title-animation fw-5">Theme Development</a>
+                        </h5>
+                        <div class="content__cta mt-40">
+                           <a href="#serviceSec">View More <i class="ph-bold ph-arrow-up-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                  <div class="service__single fade-up" data-delay="400">
+                     <span class="text-xl fw-5">03.</span>
+                     <div class="thumb mt-60">
+                        <a href="#serviceSec">
+                           <img src="assets/images/service/one.png" alt="Image">
+                        </a>
+                     </div>
+                     <div class="content mt-60">
+                        <h5><a href="#serviceSec" class="title-animation fw-5">REST API Integration</a>
+                        </h5>
+                        <div class="content__cta mt-40">
+                           <a href="#serviceSec">View More <i class="ph-bold ph-arrow-up-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                  <div class="service__single fade-up" data-delay="600">
+                     <span class="text-xl fw-5">04.</span>
+                     <div class="thumb mt-60">
+                        <a href="#serviceSec">
+                           <img src="assets/images/service/one.png" alt="Image">
+                        </a>
+                     </div>
+                     <div class="content mt-60">
+                        <h5><a href="#serviceSec" class="title-animation fw-5">WooCommerce &amp; E-commerce</a>
+                        </h5>
+                        <div class="content__cta mt-40">
+                           <a href="#serviceSec">View More <i class="ph-bold ph-arrow-up-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ==== / service section end ==== -->
+      <!-- ==== skill section start ==== -->
+      <div class="skill-two pt-160 scale-wrapper" id="resumeSec">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section__header text-center mb-60 fade-up">
+                     <span class="sub-title tertiary-text text-uppercase neutral-top fw-6">Visit my
+                        skills & RESUME</span>
+                     <h2 class="title-animation fw-6 mt-16">Professional Timeline and Milestones</h2>
+                     <p class="primary-text mt-16">A detailed journey of my experience, skills,
+                        education,
+                        and career achievements to date.
+                     </p>
+                     <div class="skill__tab-btns mt-40">
+                        <button data-target="#skillTwo" class="skill-tab-btn active">Skills</button>
+                        <span></span>
+                        <button data-target="#educationTwo" class="skill-tab-btn">Education</button>
+                        <button data-target="#experienceTwo" class="skill-tab-btn">Experience</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="skill-two__inner">
+                     <div class="skill-two__item" id="skillTwo">
+                        <div class="row gutter-24">
+                           <div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>WordPress</p><p>7+ years</p></div><div class="skill-two__content"><h5 class="fw-6">Theme and Plugin Development</h5><p class="primary-text mt-16">Custom themes, plugins and widgets, custom post types, Redux theme options, Elementor custom widgets, multilingual themes and site optimization.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Back end</p><p>PHP 7 and 8</p></div><div class="skill-two__content"><h5 class="fw-6">PHP, MySQL and REST API</h5><p class="primary-text mt-16">Plugin architecture, REST API integrations and MVC development with Timber.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Front end</p><p>HTML to ES2017</p></div><div class="skill-two__content"><h5 class="fw-6">HTML5, CSS3, SASS and JavaScript</h5><p class="primary-text mt-16">Bootstrap 3 to 5, JavaScript (ES5 to ES2017) and jQuery for responsive, mobile-first interfaces.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Workflow</p><p>Git, Bitbucket</p></div><div class="skill-two__content"><h5 class="fw-6">Version Control and Standards</h5><p class="primary-text mt-16">WordPress coding standards, cross-browser testing and Git-based project handling.</p></div></div></div>
 
-<!-- Wrapper All -->
-<div class="rewall_fn_wrapper_all" data-nav-skin="transdark">
-	
-	<!-- Wrapper -->
-	<div class="rewall_fn_wrapper">
-	
-		
-		<div class="rewall_fn_mobilemenu_wrap">
-		   
-		   	<!-- LOGO & HAMBURGER -->
-		   	<div class="logo_hamb">
-			  	<div class="in">
-				 	<div class="menu_logo">
-						<a href="index.html"><img src="img/logo-light.png" alt="" /></a>
-				 	</div>
-				 	<div class="hamburger hamburger--collapse-r">
-						<div class="hamburger-box">
-					   		<div class="hamburger-inner"></div>
-						</div>
-				 	</div>
-			 	</div>
-		   	</div>
-		   	<!-- /LOGO & HAMBURGER -->
-		   	<!-- MOBILE DROPDOWN MENU -->
-		   	<div class="mobilemenu">
-			 	<div>
-					<ul class="anchor_nav vert_menu_list">
-						<li class="current"><a href="#about">Home</a></li>
-						<li><a href="#biography">Biography</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#service">Services</a></li>
-						<li><a href="#customer">Customers</a></li>
-						<li><a href="#blog">News &amp; Tips</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-			  	</div>
-		   	</div>
-		   	<!-- /MOBILE DROPDOWN MENU -->
-		</div>
-	
-	
-		<!-- Color Scheme -->
-		<div class="rewall_fn_color_scheme">
-			<a class="opener" href="#">
-				<img src="svg/color.svg" alt="" class="fn__svg" />
-			</a>
-			<div class="color_box">
-				<a href="#" class="closer">
-					<img src="svg/cancel.svg" alt="" class="fn__svg" />
-				</a>
-				<ul>
-					<li class="item">
-						<h5>Shahbaz Ahmad Full Stack WordPress Developer</h5>
-						<ul>
-							<li><a href="#" data-color="#efb38e"></a></li>
-							<li><a href="#" data-color="#8a5d4a"></a></li>
-							<li><a href="#" data-color="#fef3d5"></a></li>
-							<li><a href="#" data-color="#9a563f"></a></li>
-							<li><a href="#" data-color="#aea5a0"></a></li>
-							<li><a href="#" data-color="#943014"></a></li>
-							<li><a href="#" data-color="#253d49"></a></li>
-							<li><a href="#" data-color="#48312b"></a></li>
-							<li><a href="#" data-color="#e5c7ad"></a></li>
-							<li><a href="#" data-color="#"></a></li>
-							<li><a href="#" data-color="#beb8ac"></a></li>
-							<li><a href="#" data-color="#697569"></a></li>
-							<li><a href="#" data-color="#203331"></a></li>
-							<li><a href="#" data-color="#b82921"></a></li>
-							<li><a href="#" data-color="#ee3834"></a></li>
-							<li><a href="#" data-color="#732c30"></a></li>
-							<li><a href="#" data-color="#050601"></a></li>
-							<li><a href="#" data-color="#3a261d"></a></li>
-							<li><a href="#" data-color="#746756"></a></li>
-							<li><a href="#" data-color="#8c7b71"></a></li>
-							<li><a href="#" data-color="#0f2936"></a></li>
-							<li><a href="#" data-color="#5b737f"></a></li>
-							<li><a href="#" data-color="#d1f3ff"></a></li>
-							<li><a href="#" data-color="#b3d3fc"></a></li>
-							<li><a href="#" data-color="#4870a3"></a></li>
-							<li><a href="#" data-color="#19375b"></a></li>
-							<li><a href="#" data-color="#142132"></a></li>
-							<li><a href="#" data-color="#020a17"></a></li>
-							<li><a href="#" data-color="#18192e"></a></li>
-							<li><a href="#" data-color="#333a57"></a></li>
-						</ul>
-					</li>
-					
-				</ul>
-				<div class="info">
-					<div class="current"></div>
-					<div class="separator"></div>
-					<div class="total"></div>
-				</div>
-				<div class="my__nav">
-					<a href="#" class="prev"><img src="svg/right-arrow.svg" alt="" class="fn__svg" /></a>
-					<a href="#" class="next"><img src="svg/right-arrow.svg" alt="" class="fn__svg" /></a>
-				</div>
-			</div>
-		</div>
-		<!-- /Color Scheme -->
-		
-		
-		<!-- Left Sidebar -->
-		<!-- You can set up minimum and maximum width for sidebar (in px). Minimum width is 350 -->
-		<div class="rewall_fn_sidebar" data-max="800" data-min="350">
+                           
+                           
+                           
+                        </div>
+                     </div>
+                     <div class="skill-two__item" id="educationTwo">
+                        <div class="row gutter-24">
+                           <div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>University of Education, Lahore</p><p>2010 - 2014</p></div><div class="skill-two__content"><h5 class="fw-6">Bachelor of Science (BSIT)</h5><p class="primary-text mt-16">Bachelor of Science in Information Technology.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Languages</p><p>4 languages</p></div><div class="skill-two__content"><h5 class="fw-6">Urdu, Punjabi, Saraiki, English</h5><p class="primary-text mt-16">Urdu, Punjabi and Saraiki at an excellent level, English at a very good level.</p></div></div></div>
 
-			<!-- Sidebar: Close Button -->
-			<a href="#" class="nav__button">
-				<span class="icon"><img src="svg/right-arrow.svg" alt="" class="fn__svg" /></span>
-				<span class="width_indicator"></span>
-			</a>
-			<!-- /Sidebar: Close Button -->
-			
-			<!-- Sidebar: Line -->
-			<div class="nav_line"></div>
-			<!-- /Sidebar: Line -->
+                           
+                           
+                           
+                        </div>
+                     </div>
+                     <div class="skill-two__item" id="experienceTwo">
+                        <div class="row gutter-24">
+                           <div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>PropertyGRID, United States</p><p>2024 - Present</p></div><div class="skill-two__content"><h5 class="fw-6">Full Stack WordPress and Plugin Developer (MVC)</h5><p class="primary-text mt-16">Led a property ownership platform on WordPress with Timber (MVC). Custom features improved data handling efficiency by 25%, plus API integrations and plugin customizations.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Yodo Club Design, Lahore</p><p>2023 - 2024</p></div><div class="skill-two__content"><h5 class="fw-6">Full Stack WordPress and Plugin Developer</h5><p class="primary-text mt-16">Built service-based custom websites and plugins such as Security Headers, Email Verification, Stock Notifier and Woo Popup.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Napollo Software Design, Lahore</p><p>2022 - 2023</p></div><div class="skill-two__content"><h5 class="fw-6">Full Stack WordPress Developer (REST API)</h5><p class="primary-text mt-16">Built trading websites that fetch and display records from REST APIs.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Glixen Technologies, Lahore</p><p>2019 - 2022</p></div><div class="skill-two__content"><h5 class="fw-6">Full Stack WordPress Developer</h5><p class="primary-text mt-16">Turned design assets into responsive themes, integrated plugins, optimized sites and kept a reusable code library.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>An Open Cart Expert, London</p><p>2018 - 2019</p></div><div class="skill-two__content"><h5 class="fw-6">Senior Full Stack Developer</h5><p class="primary-text mt-16">Developed and debugged e-commerce websites, reviewed code and mentored junior developers.</p></div></div></div>
+<div class="col-12 col-lg-6"><div class="skill-two__single scale-up"><div class="skill-two__intro"><p>Rganix-IT, Rawalpindi</p><p>2015 - 2018</p></div><div class="skill-two__content"><h5 class="fw-6">Senior Front End Website Developer</h5><p class="primary-text mt-16">Converted PSD designs into responsive HTML pages and built hybrid mobile apps.</p></div></div></div>
 
-			<!-- Sidebar: content -->
-			<div class="sidebar_in">
-				<div class="logo">
-					<a href="index.html">
-						<img src="img/logo.png" alt="" />
-					</a>
-				</div>
-				<div class="navigation">
-					<ul class="anchor_nav">
-						<li class="current"><a href="#about">Home</a></li>
-						<li><a href="#biography">Biography</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#service">Services</a></li>
-						<li><a href="#customer">Customers</a></li>
-						<li><a href="#blog">News &amp; Tips</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-				<div class="copyright">
-					<div class="social">
-						<ul>
-							<li><a href="https://www.linkedin.com/in/shahbaz-ahmad-fullstack-wordpress-developer/" target="_blank" rel="noopener noreferrer"><img src="svg/social/linkedin.svg" alt="" class="fn__svg" /></a></li>
-							<li><a href="#"><img src="svg/social/facebook.svg" alt="" class="fn__svg" /></a></li>
-							<li><a href="#"><img src="svg/social/instagram.svg" alt="" class="fn__svg" /></a></li>
-							<li><a href="#"><img src="svg/social/pinterest.svg" alt="" class="fn__svg" /></a></li>
-							<li><a href="#"><img src="svg/social/youtube.svg" alt="" class="fn__svg" /></a></li>
-						</ul>
-					</div>
-					<div class="desc">
-						<p>© 2026 <br />Created by <a href="https://www.linkedin.com/in/shahbaz-ahmad-fullstack-wordpress-developer/" target="_blank">Shahbaz Ahmad</a></p>
-					</div>
-				</div>
-			</div>
-			<!-- Sidebar: content -->
-			
-			
+                           
+                           
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ==== / skill section end ==== -->
+      <!-- ==== portfolio section start ==== -->
+      <div class="portfolio-two pt-160 scale-wrapper" id="portfolioSec">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section__header-wrapper mb-60 fade-up">
+                     <div class="row gutter-20 align-items-center">
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-8">
+                           <div class="section__header">
+                              <span class="sub-title tertiary-text text-uppercase neutral-top fw-6">Latest
+                                 Portfolio</span>
+                              <h2 class="title-animation fw-6 mt-16">Innovative Projects &
+                                 Tech Solutions
+                              </h2>
+                           </div>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-4">
+                           <div>
+                              <p class="primary-text">Selected WordPress websites and themes I have worked on.
+                              </p>
+                              <div class="mt-30">
+                                 <a href="https://github.com/shahbazr77" target="_blank" rel="noopener" class="btn-primary">
+                                    <span class="btn-animated-text" data-text="View More">View
+                                       More</span>
+                                    <span class="btn-icon">
+                                       <i class="ph ph-arrow-up-right"></i>
+                                       <i class="ph ph-arrow-up-right"></i>
+                                    </span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row gutter-60">
+               <div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://propertygrid.com" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-1.png" alt="propertygrid.com" class="parallax-image"></a><div class="btn-wrap"><a href="https://propertygrid.com" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://propertygrid.com" target="_blank" rel="noopener" class="title-animation fw-6">PropertyGRID</a></h4><div class="tags"><a href="https://propertygrid.com" target="_blank" rel="noopener">WordPress, Timber (MVC)</a></div></div></div></div>
+<div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://thefundedtraderprogram.com" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-2.png" alt="thefundedtraderprogram.com" class="parallax-image"></a><div class="btn-wrap"><a href="https://thefundedtraderprogram.com" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://thefundedtraderprogram.com" target="_blank" rel="noopener" class="title-animation fw-6">The Funded Trader Program</a></h4><div class="tags"><a href="https://thefundedtraderprogram.com" target="_blank" rel="noopener">Trading, REST API</a></div></div></div></div>
+<div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://translinguist.com" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-3.png" alt="translinguist.com" class="parallax-image"></a><div class="btn-wrap"><a href="https://translinguist.com" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://translinguist.com" target="_blank" rel="noopener" class="title-animation fw-6">Translinguist</a></h4><div class="tags"><a href="https://translinguist.com" target="_blank" rel="noopener">Service site, Custom plugins</a></div></div></div></div>
+<div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://pathsolutions.com" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-4.png" alt="pathsolutions.com" class="parallax-image"></a><div class="btn-wrap"><a href="https://pathsolutions.com" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://pathsolutions.com" target="_blank" rel="noopener" class="title-animation fw-6">Path Solutions</a></h4><div class="tags"><a href="https://pathsolutions.com" target="_blank" rel="noopener">Service website</a></div></div></div></div>
+<div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://marketplace.foodotawp.com" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-5.png" alt="marketplace.foodotawp.com" class="parallax-image"></a><div class="btn-wrap"><a href="https://marketplace.foodotawp.com" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://marketplace.foodotawp.com" target="_blank" rel="noopener" class="title-animation fw-6">Foodota Marketplace</a></h4><div class="tags"><a href="https://marketplace.foodotawp.com" target="_blank" rel="noopener">Marketplace theme</a></div></div></div></div>
+<div class="col-12 col-md-6"><div class="portfolio-two__single scale-up"><div class="thumb"><a href="https://orlandoattractions.com/tickets/" target="_blank" rel="noopener" class="img-wrap"><img src="assets/images/portfolio/proj-6.png" alt="orlandoattractions.com/tickets/" class="parallax-image"></a><div class="btn-wrap"><a href="https://orlandoattractions.com/tickets/" target="_blank" rel="noopener"><i class="ph ph-arrow-up-right"></i>Visit Site<span></span></a></div></div><div class="content mt-30"><h4><a href="https://orlandoattractions.com/tickets/" target="_blank" rel="noopener" class="title-animation fw-6">Orlando Attractions</a></h4><div class="tags"><a href="https://orlandoattractions.com/tickets/" target="_blank" rel="noopener">E-commerce</a></div></div></div></div>
 
-		</div>
-		<!-- /Left Sidebar -->
-		
-		
-		
-			
-		<!-- Main Content -->
-		<div class="rewall_fn_content">
-			<div class="fn__page">
-				
-				
-				<!-- About Section -->
-				<section class="about" id="about">
-					
-					<!-- About Modern Shortcode -->
-					<div class="fn_cs_about_modern">
-						<div class="container">
-							<div class="row">
-								
-								<div class="left_part">
-									<div class="left_in" id="scene">
-										<div class="layer border" data-depth="0.2">
-											<span class="span1"></span>
-											<span class="span2"></span>
-											<img src="img/thumb/450-550.jpg" alt="">
-										</div>
-										<div class="img_holder layer" data-depth="0.3">
-											<img src="img/thumb/450-550.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/about.jpg"></div>
-										</div>
-										<div class="dots layer" data-switch="disable" data-depth="0.4">
-										</div>
-									</div>
-								</div>
-								
-								<div class="right_part">
-									
-									<!-- Main Title -->
-									<div class="main_title">
-										<h3>Full-Stack WordPress Developer | Custom Themes & Plugins Expert</h3>
-										<p>With over 7 years of experience, I specialize in designing and developing robust, high-performance WordPress websites for clients worldwide. I deliver tailored solutions using both standard plugins and custom-built themes and plugins, ensuring scalable, SEO-friendly, and user-centric websites. From concept to deployment, I provide end-to-end WordPress development that meets modern web standards and business goals.</p>
-										<img src="img/signature.png" alt="" />
-									</div>
-									<!-- /Main Title -->
-									
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<!-- About Modern Shortcode -->
-					
-				</section>
-				<!-- /About Section -->
-				
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				<!-- Biography Section -->
-				<section class="biography" id="biography">
-					
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>Biography</h3>
-							<p>Experienced Full Stack WordPress and Plugin Developer with a strong background in plugin development, theme customization, REST API integration, and delivering optimized mobile-first websites.</p>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					
-					<!-- Info Items -->
-					<div class="fn_cs_info_items">
-						<div class="container">
-							<div class="row">
-								
-								<ul>
-									<li class="wow fadeInUp" data-wow-delay="0s"><p>Name: <span>Shahbaz Ahmad</span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.15s"><p>Role: <span>Full Stack WordPress and Plugin Developer</span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.3s"><p>Experience: <span>7+ Years</span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.45s"><p>Adress: <span>Lahore, Punjab, 54782</span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.6s"><p>Phone: <span><a href="tel:+923008770171">+92 300 8770171</a></span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.75s"><p>Focus: <span>WordPress, Themes, Plugins, REST APIs</span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="0.9s"><p>Email: <span><a href="mailto:shahbazr45@gmail.com">shahbazr45@gmail.com</a></span></p></li>
-									<li class="wow fadeInUp" data-wow-delay="1.05s"><p>Location: <span>Pakistan</span></p></li>
-								</ul>
-								
-							</div>
-						</div>
-					</div>
-					<!-- /Info Items -->
-					
-					
-					<!-- Download CV Button -->
-					<div class="fn_cs_cv_btn">
-						<div class="container">
-							<span class="line top_hover"></span>
-							<span class="line bottom_hover"></span>
-							<span class="line top"></span>
-							<span class="line bottom"></span>
-							<a href="img/ShahbazAhmad_Resume.pdf" download>
-								<span class="icon">
-									<img src="svg/inbox.svg" alt="" class="fn__svg" />
-									<img src="svg/arrow.svg" alt="" class="fn__svg arrow" />
-								</span>
-								<span>Download CV</span>
-							</a>
-						</div>
-					</div>
-					<!-- /Download CV Button -->
-					
-					
-					<!-- Tabs Shortcode -->
-					<div class="fn_cs_tabs">
-						<div class="container max880">
-							<div class="row">
-								
-								<!-- Tab: Header -->
-								<div class="tab_header">
-									<ul>
-										<li class="active"><a href="#tab1">Experience</a></li>
-										<li><a href="#tab2">Education</a></li>
-										<li><a href="#tab3">Skills</a></li>
-									</ul>
-								</div>
-								<!-- /Tab: Header -->
-								
-								<!-- Tab: Content -->
-								<div class="tab_content">
-									
-									<!-- #1 tab content -->
-									<div id="tab1" class="tab_item active">
-										
-										<!-- Boxed List -->
-										<div class="fn_cs_boxed_list">
-											<ul>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>PropertyGRID, United States</h5>
-															<span>( 2024-09 — Present )</span>
-														</div>
-														<h3>Full Stack WordPress and Plugin Developer (MVC)</h3>
-														<p>Led development on a property ownership project using WordPress with MVC (Timber), implementing custom features and integrations that improved data handling efficiency.</p>
-													</div>
-												</li>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>Yodo Club Design, Lahore</h5>
-															<span>( 2023-05 — 2024-08 )</span>
-														</div>
-														<h3>Full Stack WordPress and Plugin Developer</h3>
-														<p>Worked on service-based custom projects and custom plugin development for client-focused WordPress solutions.</p>
-													</div>
-												</li>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>Napollo Software Design, Lahore</h5>
-															<span>( 2022-09 — 2023-04 )</span>
-														</div>
-														<h3>Full Stack WordPress Developer (REST API)</h3>
-														<p>Built service-based trading projects and implemented REST API integrations to fetch and display external records efficiently.</p>
-													</div>
-												</li>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>Glixen Technologies, Lahore</h5>
-															<span>( 2019-04 — 2022-11 )</span>
-														</div>
-														<h3>Full Stack WordPress Developer</h3>
-														<p>Developed responsive WordPress websites, converted design assets into reusable front-end components, integrated plugins, and improved site performance and cross-browser compatibility.</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!-- /Boxed List -->
-										
-									</div>
-									<!-- /#1 tab content -->
-									
-									<!-- #2 tab content -->
-									<div id="tab2" class="tab_item">
-										
-										<!-- Boxed List -->
-										<div class="fn_cs_boxed_list">
-											<ul>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>University Of Education - Lahore</h5>
-															<span>( 2010-06 — 2014-06 )</span>
-														</div>
-														<h3>Bachelor of Science (BSIT)</h3>
-														<p>Completed undergraduate studies in Information Technology with a focus on core computing and software development concepts.</p>
-													</div>
-												</li>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>Professional Experience Timeline</h5>
-															<span>( 2015 — Present )</span>
-														</div>
-														<h3>Continuous Industry Learning</h3>
-														<p>Hands-on growth through long-term WordPress, frontend, and full stack delivery across e-commerce, trading, and service-based industries.</p>
-													</div>
-												</li>
-												<li>
-													<div class="item">
-														<div class="item_top">
-															<h5>Core Strength</h5>
-															<span>( Practical Expertise )</span>
-														</div>
-														<h3>WordPress Engineering</h3>
-														<p>Applied knowledge in custom themes, plugin architecture, reusable code libraries, performance optimization, and client-focused implementation.</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!-- /Boxed List -->
-											
-									</div>
-									<!-- /#2 tab content -->
-									
-									<!-- #3 tab content -->
-									<div id="tab3" class="tab_item">
-										
-										<!-- Progress Bar -->
-										<div class="fn_cs_progress_bar">
-											
-											<div class="progress_item" data-value="95">
-												<div class="item_in">
-													<h3 class="progress_title">WordPress Theme Development</h3>
-													<span class="progress_percent"></span>
-													<div class="progress_bg"></div>
-												</div>
-											</div>
-											
-											<div class="progress_item" data-value="94">
-												<div class="item_in">
-													<h3 class="progress_title">Plugin Development (PHP 7/8)</h3>
-													<span class="progress_percent"></span>
-													<div class="progress_bg"></div>
-												</div>
-											</div>
-											
-											<div class="progress_item" data-value="92">
-												<div class="item_in">
-													<h3 class="progress_title">HTML5, CSS3, SASS, Bootstrap</h3>
-													<span class="progress_percent"></span>
-													<div class="progress_bg"></div>
-												</div>
-											</div>
-											
-											<div class="progress_item" data-value="90">
-												<div class="item_in">
-													<h3 class="progress_title">JavaScript (ES5/ES6), jQuery, REST API</h3>
-													<span class="progress_percent"></span>
-													<div class="progress_bg"></div>
-												</div>
-											</div>
-											
-										</div>
-										<!-- /Progress Bar -->
-										
-										<!-- Description -->
-										<div class="fn_cs_desc">
-											<p>Strong command of WordPress customization, multilingual theme development, custom post types, Elementor custom widgets, Redux options, MySQL, Git/Bitbucket workflows, and production-ready API integrations.</p>
-										</div>
-											
-									</div>
-									<!-- /#2 tab content -->
-									
-								</div>
-								<!-- /Tab: Content -->
-								
-							</div>
-						</div>
-					</div>
-					<!-- /Tabs Shortcode -->
-					
-				</section>
-				<!-- /Biography Section -->
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				<!-- Portfolio Section -->
-				<section class="portfolio" id="portfolio">
-				
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>Portfolio</h3>
-							<p>Selected portfolio projects delivered for clients in property, trading, language services, events, and e-commerce domains with custom WordPress and plugin-based solutions.</p>
-							<div class="main_button">
-								<a href="#contact">If you are interested, Get in Touch With Me</a>
-							</div>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					<div class="portfolio_list">
-						<div class="container">
-							<ul class="fn__masonry">
+               
+               
+               
+            </div>
+         </div>
+      </div>
+      <!-- ==== / portfolio section end ==== -->
+      
+      <!-- ==== contact section start ==== -->
+      <section class="contact-two pt-160" id="contactSec">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="contact-two__inner">
+                     <div class="row gutter-40">
+                        <div class="col-12 col-lg-6 col-xl-5">
+                           <div class="contact-two__content">
+                              <div class="section__header fade-up">
+                                 <span class="sub-title tertiary-text text-uppercase neutral-top fw-6">CONTACT
+                                    US</span>
+                                 <h2 class="title-animation fw-6 mt-12">Have a WordPress project in mind? Let's talk.
+                                 </h2>
+                              </div>
+                              <div class="contact-content-inner mt-60 fade-up" data-delay="300">
+                                 <p class="text-xl"><a href="tel:+923008770171">+92 300 8770171</a>
+                                 </p>
+                                 <p class="text-sm primary-text mt-8">Call me for urgent work</p>
+<p class="text-sm primary-text mt-8" style="text-transform:none"><a href="mailto:shahbazr45@gmail.com">shahbazr45@gmail.com</a></p>
+                                 <div class="mt-30">
+                                    <a href="#portfolioSec" class="btn-primary">
+                                       <span class="btn-animated-text" data-text="View Projects">View Projects</span>
+                                       <span class="btn-icon">
+                                          <i class="ph ph-arrow-up-right"></i>
+                                          <i class="ph ph-arrow-up-right"></i>
+                                       </span>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-xl-7">
+                           <div class="contact__form fade-up">
+                              <form action="https://formspree.io/f/YOUR_FORM_ID" method="post">
+                                 <div class="input-group">
+                                    <div class="input-single">
+                                       <label for="contactFirstName">Your Name <sup>*</sup></label>
+                                       <input type="text" name="name" id="contactFirstName"
+                                          placeholder="Full Name" required>
+                                    </div>
+                                    <div class="input-single">
+                                       <label for="contactEmail">Your Email <sup>*</sup></label>
+                                       <input type="email" name="email" id="contactEmail"
+                                          placeholder="Email Address" required>
+                                    </div>
+                                 </div>
+                                 <div class="input-group">
+                                    <div class="input-single">
+                                       <label for="contactEmail">Phone Number <sup>*</sup></label>
+                                       <input type="tel" name="phone" id="contactNumber"
+                                          placeholder="Phone Number" required>
+                                    </div>
+                                    <div class="input-single">
+                                       <label for="chooseService">Choose Service
+                                          <sup>*</sup></label>
+                                       <select name="service" id="chooseService" class="service-select select">
+                                          <option data-display="Choose Service">Choose Service
+                                          </option>
+                                          <option value="wordpress">WordPress Development</option><option value="plugin">Plugin Development</option><option value="api">REST API Integration</option><option value="woocommerce">WooCommerce</option><option value="other">Other</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                                 <div class="input-single">
+                                    <label for="contactMessage">Your Message <sup>*</sup></label>
+                                    <textarea name="message" id="contactMessage" placeholder="Message"
+                                       required></textarea>
+                                 </div>
+                                 <div class="mt-40">
+                                    <button type="submit" class="btn-primary" title="submit message"
+                                       aria-label="submit message"> <span class="btn-animated-text"
+                                          data-text="Send Message">Send Message</span>
+                                       <span class="btn-icon">
+                                          <i class="ph ph-arrow-up-right"></i>
+                                          <i class="ph ph-arrow-up-right"></i>
+                                       </span></button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ==== / contact section end ==== -->
+      
+      
+      <!-- ==== footer start ==== -->
+      <footer class="footer-two">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-12 col-lg-5 col-xl-4">
+                  <div class="footer-two__intro fade-right">
+                     <div class="logo">
+                        <a href="index.html">
+                           <img src="assets/images/logo.png" alt="Image" class="logo-ch">
+                        </a>
+                     </div>
+                     <div class="mt-20">
+                        <p class="neutral-text text-md">Custom WordPress themes, plugins and REST API integrations, built in Lahore for clients worldwide.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-2 col-xl-3">
+                  <div class="footer-two__nav fade-right" data-delay="200">
+                     <ul>
+                        <li><a href="#aboutSec">About</a></li>
+                        <li><a href="#serviceSec" class="footer-nav-active">Services</a></li>
+                        <li><a href="#portfolioSec">Projects</a></li>
+                        <li><a href="#contactSec">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-5 col-xl-5">
+                  <div class="footer-two__text fade-right" data-delay="400">
+                     <h3 class="pulse-text title-xxl">LET'S TALK</h3>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__copyright">
+            <div class="container">
+               <div class="row align-items-center gutter-24">
+                  <div class="col-12 col-lg-4">
+                     <div class="footer__copyright-left">
+                        <p>
+                           <i class="ph ph-copyright"></i> <span id="copyrightYear"></span> <a href="index.html">Shahbaz Ahmad</a>. All rights reserved.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-4">
+                     <div class="social justify-content-center">
+                        <a href="https://github.com/shahbazr77" target="_blank" aria-label="github profile"
+                           title="github">
+                           <i class="fa-brands fa-github"></i>
+                        </a>
+                        
+                        
+                        
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-4">
+                     <div class="footer__copyright-right">
+                        <p>
+                           Designed By <a href="https://themeforest.net/user/wowtheme7">wowtheme7</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- ==== / footer end ==== -->
 
-								<li class="masonry_in">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://propertygrid.com/" target="_blank" rel="noopener noreferrer">PropertyGRID</a></h3>
-											<p>WordPress MVC, custom features, API integrations</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://propertygrid.com/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/1.jpg"></div>
-										</div>
-									</div>
-								</li>
-
-								<li class="masonry_in">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://theardcity.com/" target="_blank" rel="noopener noreferrer">The Ard City</a></h3>
-											<p>Service-based custom WordPress project</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://theardcity.com/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/2.jpg"></div>
-										</div>
-									</div>
-								</li>
-
-								<li class="masonry_in">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://thatgirlclub.com.au/" target="_blank" rel="noopener noreferrer">That Girl Club</a></h3>
-											<p>Custom plugin and framework-based implementation</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://thatgirlclub.com.au/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/3.jpg"></div>
-										</div>
-									</div>
-								</li>
-
-								<li class="masonry_in">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://marketplace.foodotawp.com/" target="_blank" rel="noopener noreferrer">FoodOTA Marketplace</a></h3>
-											<p>WordPress marketplace platform for food ordering and vendor listings</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://marketplace.foodotawp.com/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/4.jpg"></div>
-										</div>
-									</div>
-								</li>
-								<li class="masonry_in be_animated">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://yododesigns.com" target="_blank" rel="noopener noreferrer">Yodo Designs</a></h3>
-											<p>Service-based custom WordPress development</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://yododesigns.com" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/5.jpg"></div>
-										</div>
-									</div>
-								</li>
-								<li class="masonry_in be_animated">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://www.thefundedtraderprogram.com/" target="_blank" rel="noopener noreferrer">The Funded Trader Program</a></h3>
-											<p>Service-based trading platform with WordPress + REST integrations</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://www.thefundedtraderprogram.com/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/6.jpg"></div>
-										</div>
-									</div>
-								</li>
-								<li class="masonry_in be_animated">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://multilingual.maxwheelswp.com/" target="_blank" rel="noopener noreferrer">Multilingual MaxWheels</a></h3>
-											<p>Multilingual WordPress platform with custom listing experiences</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://multilingual.maxwheelswp.com/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/7.jpg"></div>
-										</div>
-									</div>
-								</li>
-								<li class="masonry_in be_animated">
-									<div class="item">
-										<div class="title_holder">
-											<h3><a class="fn__link" href="https://jobs.nokriwp.com/demo-3/" target="_blank" rel="noopener noreferrer">Nokri WP Demo 3</a></h3>
-											<p>Job board WordPress demo implementation</p>
-										</div>
-
-										<div class="img_holder">
-											<a href="https://jobs.nokriwp.com/demo-3/" target="_blank" rel="noopener noreferrer"></a>
-											<img src="img/thumb/square.jpg" alt="">
-											<div class="abs_img" data-bg-img="img/portfolio/8.jpg"></div>
-										</div>
-									</div>
-								</li>
-
-
-							</ul>
-							<div class="load_more">
-								<a href="#" data-initial="Load More" data-loading="Loading..." data-done="Done" data-no="No more items found">
-									<span class="text">Load More</span>
-									<span class="icon"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-					
-					
-				</section>
-				<!-- /Portfolio Section -->
-				
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				<!-- Service Section -->
-				<section class="service" id="service">
-					
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>Services</h3>
-							<p>I provide full stack WordPress services including custom plugin development, theme development and customization, REST API integrations, multilingual implementations, and performance-focused website delivery.</p>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					<!-- Boxed List -->
-					<div class="fn_cs_boxed_list modern">
-						<div class="container max1020">
-							<ul>
-								<li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0s">
-									<div class="item">
-										<div class="badge">
-											<p>Starts From</p>
-										<h5>Custom</h5>
-										</div>
-										<h3>WordPress Theme Development</h3>
-										<p>Custom WordPress theme architecture, reusable component development, responsive layouts, and standards-compliant implementations for scalable business websites.</p>
-									</div>
-								</li>
-								<li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-									<div class="item">
-										<div class="badge">
-											<p>Starts From</p>
-										<h5>Custom</h5>
-										</div>
-										<h3>Plugin Development</h3>
-										<p>Custom plugin engineering including security headers, email verification, reCAPTCHA integrations, stock notifier logic, and framework-based plugin structures.</p>
-									</div>
-								</li>
-								<li class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
-									<div class="item">
-										<div class="badge">
-											<p>Starts From</p>
-										<h5>Custom</h5>
-										</div>
-										<h3>REST API Integrations</h3>
-										<p>API-based data integrations for trading and service projects, including record fetching, synchronization, and custom endpoint-based functionality inside WordPress.</p>
-									</div>
-								</li>
-								<li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-									<div class="item">
-										<div class="badge">
-											<p>Starts From</p>
-										<h5>Custom</h5>
-										</div>
-										<h3>Theme Customization & Optimization</h3>
-										<p>Advanced customization of existing themes, mobile-first improvements, performance optimization, and cross-browser compatibility for production websites.</p>
-									</div>
-								</li>
-							</ul>
-						</div>
-						
-					</div>
-					<!-- /Boxed List -->
-					
-					
-				</section>
-				<!-- /Service Section -->
-				
-				
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				
-				<!-- Customer Section -->
-				<section class="customer" id="customer">
-				
-				
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>Customers</h3>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					<div class="container">
-						<!-- Partners -->
-						<!-- /Partners -->
-						
-						<div class="fn_cs_testimonials">
-							<div class="owl-carousel owl-theme">
-							
-							
-								<div class="item">
-									<div class="icon">
-										<img src="svg/quote.svg" alt="" class="fn__svg" />
-									</div>
-									<div class="title_holder">
-										<div class="desc">
-											<p>Shahbaz demonstrated exceptional expertise in developing a fully custom WordPress solution for our property platform. He not only built a seamless and responsive website but also implemented advanced SEO optimizations that significantly improved our search visibility.</p>
-										</div>
-										<div class="name">
-											<h3>Daniel Martinez</h3>
-											<p>COO, Global Rentals Inc.</p>
-										</div>
-									</div>
-								</div>
-							
-								<div class="item">
-									<div class="icon">
-										<img src="svg/quote.svg" alt="" class="fn__svg" />
-									</div>
-									<div class="title_holder">
-										<div class="desc">
-											<p>Working with Shahbaz was an absolute pleasure. He transformed our ideas into a fully functional WordPress website with custom themes and plugins tailored to our business needs. Beyond coding, he provided valuable suggestions to enhance user experience and lead generation.</p>
-										</div>
-										<div class="name">
-											<h3>Liam O’Connor</h3>
-											<p>Founder, BlueWave Developments</p>
-										</div>
-									</div>
-								</div>
-							
-								<div class="item">
-									<div class="icon">
-										<img src="svg/quote.svg" alt="" class="fn__svg" />
-									</div>
-									<div class="title_holder">
-										<div class="desc">
-											<p> Shahbaz is a highly skilled WordPress developer who consistently delivers high-quality results. He took our vision and turned it into a scalable, responsive website with custom functionality that perfectly fits our requirements. His expertise in PHP, Elementor, and custom plugin development ensured the site was both powerful and easy to manage.</p>
-										</div>
-										<div class="name">
-											<h3>James Patel</h3>
-											<p>CEO, PropertyGrid Solutions</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="item">
-									<div class="icon">
-										<img src="svg/quote.svg" alt="" class="fn__svg" />
-									</div>
-									<div class="title_holder">
-										<div class="desc">
-											<p>From start to finish, Shahbaz delivered beyond expectations. He built a custom WordPress theme and plugins that were perfectly aligned with our brand and business objectives. What sets him apart is his deep understanding of both the technical and strategic aspects of web development</p>
-										</div>
-										<div class="name">
-											<h3>Maria Gonzales</h3>
-											<p>Head of Marketing, Casa Capital</p>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="icon">
-										<img src="svg/quote.svg" alt="" class="fn__svg" />
-									</div>
-									<div class="title_holder">
-										<div class="desc">
-											<p>Shahbaz brought a level of professionalism and expertise that is rare to find. He developed a custom WordPress solution that was not only visually stunning but also highly functional and optimized for performance. His attention to detail, timely updates, and willingness to go the extra mile made a complex project feel seamless and stress-free.</p>
-										</div>
-										<div class="name">
-											<h3>Alex Thompson</h3>
-											<p>CTO, Horizon Properties</p>
-										</div>
-									</div>
-								</div>
-								
-								
-							</div>
-								
-							<div class="my__nav">
-								<a href="#" class="prev"><img src="svg/right-arrow.svg" alt="" class="fn__svg" /></a>
-								<a href="#" class="next"><img src="svg/right-arrow.svg" alt="" class="fn__svg" /></a>
-							</div>
-						</div>
-					</div>
-						
-					
-					
-				</section>
-				<!-- /Customer Section -->
-				
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				
-				<!-- Blog Section -->
-				<section class="blog" id="blog">
-					
-					
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>News &amp; Tips</h3>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					
-					<div class="container">
-						<!-- Blog List -->
-						<div class="blog_list">
-							<ul class="gallery_zoom">
-								<li>
-									<div class="item">
-										<div class="left_part">
-											<div class="img_holder">
-												<a class="zoom" href="img/blog/1.jpg"></a>
-												<img src="img/thumb/square.jpg" alt="" />
-												<div class="abs_img" data-bg-img="img/blog/1.jpg"></div>
-											</div>
-										</div>
-										<div class="right_part">
-											<div class="title">
-												<h3><a class="fn__link zoom" href="img/blog/1.jpg">Why a Custom Theme Outperforms "Off-the-Shelf" Page Builders in 2026</a></h3>
-												<p>We use a race metaphor: a sleek, optimized, streamlined car representing the custom theme is zooming past a clunky, box-truck overflowing with messy "bloat" (plugins and unnecessary code). The tone is blue/green, modern, and clean.</p>
-												<p>March 25. 2026</p>
-											</div>
-											<div class="main_button">
-												<a class="zoom" href="img/blog/1.jpg">Continue Reading</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="item">
-										<div class="left_part">
-											<div class="img_holder">
-												<a class="zoom" href="img/blog/2.jpg"></a>
-												<img src="img/thumb/square.jpg" alt="" />
-												<div class="abs_img" data-bg-img="img/blog/2.jpg"></div>
-											</div>
-										</div>
-										<div class="right_part">
-											<div class="title">
-												<h3><a class="fn__link zoom" href="img/blog/2.jpg">Mastering the Gutenberg Block API: Moving Beyond ACF</a></h3>
-												<p>A modern technical illustration showing the transformation of WordPress development. On the left, a traditional structured form represents the Advanced Custom Fields (ACF) approach. An arrow points to the right, showing these fields evolving into dynamic, modular "Blocks" and "Components" that fit together flawlessly (representing the Gutenberg Block API). The background uses glowing lines to suggest connectivity and modernization.</p>
-												<p>February 25. 2026</p>
-											</div>
-											<div class="main_button">
-												<a class="zoom" href="img/blog/2.jpg">Continue Reading</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="be_animated">
-									<div class="item">
-										<div class="left_part">
-											<div class="img_holder">
-												<a class="zoom" href="img/blog/3.jpg"></a>
-												<img src="img/thumb/square.jpg" alt="" />
-												<div class="abs_img" data-bg-img="img/blog/3.jpg"></div>
-											</div>
-										</div>
-										<div class="right_part">
-											<div class="title">
-												<h3><a class="fn__link zoom" href="img/blog/3.jpg">How to Optimize Your Images for the Web (Without Losing Quality).</a></h3>
-												<p>A modern, minimalist 3D isometric illustration that provides a direct "Before & After" for image optimization. On the left, a large, heavy-looking camera icon is clearly labeled "10MB." On the right, a smaller, streamlined, glowing camera icon is labeled "150KB." In the center, a mechanical press with green arrows is physically optimizing the files. The palette is a soft, clean purple and blue gradient.</p>
-												<p>January 12. 2026</p>
-											</div>
-											<div class="main_button">
-												<a class="zoom" href="img/blog/3.jpg">Continue Reading</a>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="be_animated">
-									<div class="item">
-										<div class="left_part">
-											<div class="img_holder">
-												<a class="zoom" href="img/blog/4.jpg"></a>
-												<img src="img/thumb/square.jpg" alt="" />
-												<div class="abs_img" data-bg-img="img/blog/4.jpg"></div>
-											</div>
-										</div>
-										<div class="right_part">
-											<div class="title">
-												<h3><a class="fn__link zoom" href="img/blog/4.jpg">The Hidden Cost of "Plugin Bloat": How to Keep Your Site Fast</a></h3>
-												<p>This image uses a balance scale to compare "Plugin Bloat" with an optimized build. The left side is sinking, overloaded with cluttered icons (database cylinders, tangled wires, generic blocks, and question marks), explicitly labeled "PLUGIN BLOAT (SLOW)." The right side, carrying only a single, streamlined, glowing rocket, is light and lifted, labeled "CUSTOM BUILD (FAST)." A simple red/green performance bar at the bottom reinforces the message. The clean, modern aesthetic is consistent with the previous visual style.</p>
-												<p>December 15. 2025</p>
-											</div>
-											<div class="main_button">
-												<a class="zoom" href="img/blog/4.jpg">Continue Reading</a>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-							
-							<div class="clearfix"></div>
-							
-							<div class="load_more">
-								<a href="#" data-initial="Load More" data-loading="Loading..." data-done="Done" data-no="No more items found">
-									<span class="text">Load More</span>
-									<span class="icon"></span>
-								</a>
-							</div>
-							
-						</div>
-						<!-- /Blog List -->	
-					</div>
-					
-				</section>
-				<!-- /Blog Section -->
-				
-				
-				<!-- Scroll to next section -->
-				<div class="fn__next_section">
-					<div class="container"><span></span></div>
-					<a href="#">
-						<img src="svg/right-arrow.svg" alt="" class="fn__svg" />
-						<span class="fn__tooltip">Double click to scroll the screen to previous section</span>
-					</a>
-				</div>
-				<!-- /Scroll to next section -->
-				
-				
-				<!-- Contact Section -->
-				<section class="contact" id="contact">
-					
-					<!-- Main Title -->
-					<div class="main_title center">
-						<div class="container max880">
-							<h3>Contact</h3>
-						</div>
-					</div>
-					<!-- /Main Title -->
-					
-					<!-- Contact -->
-					<div class="rewall_fn_contact">
-						<div class="container max880">					
-							
-							<!-- Contact Form -->
-							<form class="contact_form" action="/" method="post" autocomplete="off" data-email="frenifyteam@gmail.com" style="display: none;">
-								
-								<!--
-								 	Don't remove below code in avoid to work contact form properly.
-									You can chance dat-success value with your one. It will be used when user will try to contact via contact form and will get success message.
-								-->
-								<div class="success" data-success="Your message has been received, we will contact you soon."></div>
-								<div class="empty_notice"><span>Please Fill Required Fields!</span></div>
-								<!-- -->
-								
-								<div class="items_wrap">
-									<div class="items">
-										<div class="item half">
-											<div class="input_wrapper">
-												<input id="name" type="text" />
-												<span class="moving_placeholder">Name *</span>
-											</div>
-										</div>
-										<div class="item half">
-											<div class="input_wrapper">
-												<input id="email" type="email" />
-												<span class="moving_placeholder">Email *</span>
-											</div>
-										</div>
-										<div class="item">
-											<div class="input_wrapper">
-												<input id="phone" type="phone" />
-												<span class="moving_placeholder">Phone</span>
-											</div>
-										</div>
-										<div class="item">
-											<div class="input_wrapper">
-												<textarea id="message"></textarea>
-												<span class="moving_placeholder">Message</span>
-											</div>
-										</div>
-										<div class="item">
-											<a id="send_message" href="#">Send Message</a>
-										</div>
-									</div>
-								</div>
-							</form>
-							<!-- /Contact Form -->
-							
-							
-							<!-- Contact Info -->
-							<div class="fn_cs_contact_info">
-								<p>Address</p>
-								<h3>Lahore, Punjab,Pakistan, 54782</h3>
-								<p>Phone</p>
-								<h3><a href="tel:+923008770171">+92 300 8770171</a></h3>
-								<p><a class="fn__link" href="mailto:shahbazr45@gmail.com">shahbazr45@gmail.com</a></p>
-
-								<div class="contact_main">
-								<div class="copyright">
-									<div class="social">
-										<ul>
-											<li><a href="https://www.linkedin.com/in/shahbaz-ahmad-fullstack-wordpress-developer/" target="_blank" rel="noopener noreferrer"><img src="svg/social/linkedin.svg" alt="" class="fn__svg" /></a></li>
-											<li><a href="#"><img src="svg/social/facebook.svg" alt="" class="fn__svg" /></a></li>
-											<li><a href="#"><img src="svg/social/instagram.svg" alt="" class="fn__svg" /></a></li>
-											<li><a href="#"><img src="svg/social/pinterest.svg" alt="" class="fn__svg" /></a></li>
-											<li><a href="#"><img src="svg/social/youtube.svg" alt="" class="fn__svg" /></a></li>
-										</ul>
-									</div>
-									<div class="desc">
-										<p>© 2026 <br />Created by <a href="https://www.linkedin.com/in/shahbaz-ahmad-fullstack-wordpress-developer/" target="_blank">Shahbaz Ahmad</a></p>
-									</div>
-								</div>
-								</div>
-
-
-							</div>
-							<!-- /Contact Info -->
-							
-							
-						</div>
-					</div>
-					<!-- /Contact -->
-					
-				</section>
-				<!-- /Contact Section -->
-				
-		
-			</div>
-		</div>
-		<!-- Main Content -->
-		
-	</div>
-	<!-- /Wrapper -->
-	
-</div>
-<!-- /Wrapper All -->
-
-
-
-<!-- Scripts -->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/wow.min.js"></script>
-<script type="text/javascript" src="js/magnific-popup.js"></script>
-<script type="text/javascript" src="js/onepage.js"></script>
-<script type="text/javascript" src="js/owl-carousel.js"></script>
-<script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/parallax.js"></script>
-<script type="text/javascript" src="js/waypoints.js"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-<script type="text/javascript" src="js/init.js"></script>
-<!-- /Scripts -->
-
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner"></div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
+         <span></span>
+         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+         </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+   </div>
+   <!-- ==== js dependencies start ==== -->
+   <!-- jquery -->
+   <script src="assets/js/jquery-3.7.1.min.js"></script>
+   <!-- bootstrap five js -->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <!-- nice select js -->
+   <script src="assets/js/jquery.nice-select.min.js"></script>
+   <!-- magnific popup js -->
+   <script src="assets/js/jquery.magnific-popup.min.js"></script>
+   <!-- swiper slider js -->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+   <!-- viewport js -->
+   <script src="assets/js/viewport.jquery.js"></script>
+   <!-- odometer js -->
+   <script src="assets/js/odometer.min.js"></script>
+   <!-- vanilla tilt js -->
+   <script src="assets/js/vanilla-tilt.min.js"></script>
+   <!-- phospor icons js -->
+   <script src="assets/js/phosphor-icon.js"></script>
+   <!-- scrolltrigger js -->
+   <script src="assets/js/ScrollTrigger.min.js"></script>
+   <!-- splittext js -->
+   <script src="assets/js/SplitText.min.js"></script>
+   <!-- scrollto js -->
+   <script src="assets/js/ScrollToPlugin.min.js"></script>
+   <!-- gsap js -->
+   <script src="assets/js/gsap.min.js"></script>
+   <!-- chroma js -->
+   <script src="assets/js/chroma.min.js"></script>
+   <!-- ==== / js dependencies end ==== -->
+   <!-- main js -->
+   <script src="assets/js/main.js"></script>
 </body>
+
 </html>
