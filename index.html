@@ -592,7 +592,7 @@
                                  </h2>
                               </div>
                               <div class="contact-content-inner mt-60 fade-up" data-delay="300">
-                                 <p class="text-xl"><a href="tel:+923008770171">+92 300 8770171</a>
+                                 <p class="text-xl"><a href="https://wa.me/923008770171" target="_blank" rel="noopener noreferrer">+92 300 8770171</a>
                                  </p>
                                  <p class="text-sm primary-text mt-8">Call me for urgent work</p>
 <p class="text-sm primary-text mt-8" style="text-transform:none"><a href="mailto:shahbazr45@gmail.com">shahbazr45@gmail.com</a></p>
@@ -610,7 +610,7 @@
                         </div>
                         <div class="col-12 col-lg-6 col-xl-7">
                            <div class="contact__form fade-up">
-                              <form action="https://formspree.io/f/YOUR_FORM_ID" method="post">
+                              <form  id="contactForm">
                                  <div class="input-group">
                                     <div class="input-single">
                                        <label for="contactFirstName">Your Name <sup>*</sup></label>
@@ -653,6 +653,7 @@
                                           <i class="ph ph-arrow-up-right"></i>
                                        </span></button>
                                  </div>
+                                 <p id="formStatus" role="status" aria-live="polite"></p>
                               </form>
                            </div>
                         </div>
@@ -778,6 +779,50 @@
    <!-- ==== / js dependencies end ==== -->
    <!-- main js -->
    <script src="assets/js/main.js"></script>
+
+ 
+ <script>
+ document.getElementById("contactForm").addEventListener("submit", async function(event) {
+   event.preventDefault();
+ 
+   const form = this;
+   const status = document.getElementById("formStatus");
+
+   if (!status) {
+   console.error("Missing HTML element: #formStatus");
+   return;
+   }
+   const button = form.querySelector('button[type="submit"]');
+ 
+   button.disabled = true;
+   status.textContent = "Sending your message...";
+ 
+   const formData = new FormData(form);
+   const data = Object.fromEntries(formData.entries());
+ 
+   try {
+     await fetch("https://script.google.com/macros/s/AKfycbwuGkUm_cTqw9WIBVrDfOBg9Dm9mAa7cQmLVZn-8TwbSXxo_iZuIVdOXgFIoLgvmHyywA/exec", {
+       method: "POST",
+       mode: "no-cors",
+       body: new URLSearchParams(data)
+     });
+ 
+     status.textContent = "Your message has been submitted. Thank you!";
+     form.reset();
+ 
+   } catch (error) {
+     status.textContent = "Unable to send your message. Please try again.";
+     console.error("Form submission error:", error);
+ 
+   } finally {
+     button.disabled = false;
+   }
+ });
+ </script>
+ 
+
+
+
 </body>
 
 </html>
